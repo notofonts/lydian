@@ -4,9 +4,5 @@ googleFonts: true
 includeSubsets:
 - from: Noto Sans
   name: GF_Latin_Core
-- from: Noto Sans
-  ranges:
-    - start: 0x0323
-      end: 0x0323
 sources:
 - NotoSansLydian.designspace
