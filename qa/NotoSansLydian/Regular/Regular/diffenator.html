@@ -213,6 +213,14 @@
   clear: both;
 }
 
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
     </style>
 </head>
 <body>
@@ -220,6 +228,9 @@
 		
 			<div class="nav-item" id="font-toggle">old</div>
 		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
 		
 	</div>
     <div id="content">
@@ -230,7 +241,7 @@
   
     <div class="box">
     <div class="box-title">Tables</div>
-     <script>var fontdiff = {"maxp": {"numGlyphs": [32, 33]}, "GPOS": {"tableTag": [null, "GPOS"], "table": {"Version": [null, 65536], "ScriptList": {"ScriptCount": [null, 1], "ScriptRecord": {"0": {"ScriptTag": [null, "DFLT"], "Script": {"DefaultLangSys": {"ReqFeatureIndex": [null, 65535], "FeatureCount": [null, 2], "FeatureIndex": {"0": [null, 0], "1": [null, 1]}}, "LangSysCount": [null, 0]}}}}, "FeatureList": {"FeatureCount": [null, 2], "FeatureRecord": {"0": {"FeatureTag": [null, "mark"], "Feature": {"LookupCount": [null, 1], "LookupListIndex": {"0": [null, 0]}}}, "1": {"FeatureTag": [null, "mkmk"], "Feature": {"LookupCount": [null, 1], "LookupListIndex": {"0": [null, 1]}}}}}, "LookupList": {"LookupCount": [null, 2], "Lookup": {"0": {"LookupType": [null, 4], "LookupFlag": [null, 0], "SubTableCount": [null, 1], "SubTable": {"0": {"Format": [null, 1], "MarkCoverage": {"glyphs": {"0": [null, "dotbelowcomb"]}}, "BaseCoverage": {"glyphs": {"0": [null, "u10920"], "1": [null, "u10921"], "2": [null, "u10922"], "3": [null, "u10923"], "4": [null, "u10924"], "5": [null, "u10925"], "6": [null, "u10926"], "7": [null, "u10927"], "8": [null, "u10928"], "9": [null, "u10929"], "10": [null, "u1092A"], "11": [null, "u1092B"], "12": [null, "u1092C"], "13": [null, "u1092D"], "14": [null, "u1092E"], "15": [null, "u1092F"], "16": [null, "u10930"], "17": [null, "u10931"], "18": [null, "u10932"], "19": [null, "u10933"], "20": [null, "u10934"], "21": [null, "u10935"], "22": [null, "u10936"], "23": [null, "u10937"], "24": [null, "u10938"], "25": [null, "u10939"], "26": [null, "u1093F"]}}, "ClassCount": [null, 1], "MarkArray": {"MarkCount": [null, 1], "MarkRecord": {"0": {"Class": [null, 0], "MarkAnchor": {"Format": [null, 1], "XCoordinate": [null, -287], "YCoordinate": [null, 0]}}}}, "BaseArray": {"BaseCount": [null, 27], "BaseRecord": {"0": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 329], "YCoordinate": [null, -120]}}}, "1": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 303], "YCoordinate": [null, -120]}}}, "2": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 301], "YCoordinate": [null, -120]}}}, "3": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 239], "YCoordinate": [null, -120]}}}, "4": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 254], "YCoordinate": [null, -120]}}}, "5": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 254], "YCoordinate": [null, -120]}}}, "6": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 167], "YCoordinate": [null, -120]}}}, "7": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 298], "YCoordinate": [null, -120]}}}, "8": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 225], "YCoordinate": [null, -120]}}}, "9": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 254], "YCoordinate": [null, -120]}}}, "10": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 340], "YCoordinate": [null, -120]}}}, "11": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 305], "YCoordinate": [null, -120]}}}, "12": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 353], "YCoordinate": [null, -120]}}}, "13": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 290], "YCoordinate": [null, -120]}}}, "14": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 268], "YCoordinate": [null, -120]}}}, "15": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 282], "YCoordinate": [null, -120]}}}, "16": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 239], "YCoordinate": [null, -120]}}}, "17": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 291], "YCoordinate": [null, -120]}}}, "18": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 306], "YCoordinate": [null, -120]}}}, "19": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 306], "YCoordinate": [null, -120]}}}, "20": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 306], "YCoordinate": [null, -120]}}}, "21": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 467], "YCoordinate": [null, -120]}}}, "22": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 337], "YCoordinate": [null, -120]}}}, "23": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 414], "YCoordinate": [null, -120]}}}, "24": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 314], "YCoordinate": [null, -120]}}}, "25": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 342], "YCoordinate": [null, -120]}}}, "26": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 235], "YCoordinate": [null, -120]}}}}}}}}, "1": {"LookupType": [null, 6], "LookupFlag": [null, 16], "SubTableCount": [null, 1], "SubTable": {"0": {"Format": [null, 1], "Mark1Coverage": {"glyphs": {"0": [null, "dotbelowcomb"]}}, "Mark2Coverage": {"glyphs": {"0": [null, "dotbelowcomb"]}}, "ClassCount": [null, 1], "Mark1Array": {"MarkCount": [null, 1], "MarkRecord": {"0": {"Class": [null, 0], "MarkAnchor": {"Format": [null, 1], "XCoordinate": [null, -287], "YCoordinate": [null, 0]}}}}, "Mark2Array": {"Mark2Count": [null, 1], "Mark2Record": {"0": {"Mark2Anchor": {"0": {"Format": [null, 1], "XCoordinate": [null, -287], "YCoordinate": [null, -165]}}}}}}}, "MarkFilteringSet": [null, 0]}}}}}, "head": {"xMin": [10, -341], "checkSumAdjustment": [4243517364, 2345217004], "modified": [3746422524, 3772004557], "yMin": [-20, -199]}, "post": {"extraNames": {"30": [null, "dotbelowcomb"]}}, "cmap": {"0x0323": [null, "dotbelowcomb"]}, "glyf": {"glyphOrder": {"32": [null, "dotbelowcomb"]}, "glyphs": {"u10933": {"xMax": [573, null], "xMin": [39, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [15, null]}, "numberOfContours": [1, null]}, "u10939": {"xMax": [665, null], "xMin": [20, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [9, null]}, "numberOfContours": [1, null]}, "u10936": {"xMax": [654, null], "xMin": [20, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [17, null]}, "numberOfContours": [1, null]}, "u1092E": {"xMax": [521, null], "xMin": [15, null], "yMax": [724, null], "yMin": [-20, null], "endPtsOfContours": {"0": [41, null]}, "numberOfContours": [1, null]}, ".notdef": {"xMax": [450, null], "xMin": [50, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [3, null], "1": [7, null]}, "numberOfContours": [2, null]}, "u10925": {"xMax": [480, null], "xMin": [29, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [10, null]}, "numberOfContours": [1, null]}, "u10934": {"xMax": [573, null], "xMin": [39, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [19, null]}, "numberOfContours": [1, null]}, "u10921": {"xMax": [553, null], "xMin": [54, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [16, null], "1": [25, null], "2": [34, null]}, "numberOfContours": [3, null]}, "u10931": {"xMax": [534, null], "xMin": [49, null], "yMax": [724, null], "yMin": [-10, null], "endPtsOfContours": {"0": [29, null], "1": [41, null], "2": [57, null]}, "numberOfContours": [3, null]}, "u10926": {"xMax": [212, null], "xMin": [122, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [3, null]}, "numberOfContours": [1, null]}, "u1092C": {"xMax": [646, null], "xMin": [61, null], "yMax": [637, null], "yMin": [95, null], "endPtsOfContours": {"0": [15, null], "1": [28, null]}, "numberOfContours": [2, null]}, "u1092F": {"xMax": [550, null], "xMin": [15, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [7, null]}, "numberOfContours": [1, null]}, "u10935": {"xMax": [919, null], "xMin": [15, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [35, null]}, "numberOfContours": [1, null]}, "u10927": {"xMax": [535, null], "xMin": [61, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [9, null], "1": [18, null]}, "numberOfContours": [2, null]}, "u1093F": {"xMax": [422, null], "xMin": [49, null], "yMax": [580, null], "yMin": [124, null], "endPtsOfContours": {"0": [5, null], "1": [8, null]}, "numberOfContours": [2, null]}, "u1092B": {"xMax": [581, null], "xMin": [29, null], "yMax": [724, null], "yMin": [0, null], "endPtsOfContours": {"0": [11, null]}, "numberOfContours": [1, null]}, "u1092A": {"xMax": [652, null], "xMin": [29, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [12, null]}, "numberOfContours": [1, null]}, "u10932": {"xMax": [573, null], "xMin": [39, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [11, null]}, "numberOfContours": [1, null]}, "u10924": {"xMax": [480, null], "xMin": [29, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [10, null]}, "numberOfContours": [1, null]}, "u10937": {"xMax": [800, null], "xMin": [29, null], "yMax": [724, null], "yMin": [0, null], "endPtsOfContours": {"0": [15, null]}, "numberOfContours": [1, null]}, "u10938": {"xMax": [589, null], "xMin": [39, null], "yMax": [724, null], "yMin": [-10, null], "endPtsOfContours": {"0": [42, null]}, "numberOfContours": [1, null]}, "u10923": {"xMax": [449, null], "xMin": [29, null], "yMax": [714, null], "yMin": [-10, null], "endPtsOfContours": {"0": [7, null]}, "numberOfContours": [1, null]}, "u10929": {"xMax": [480, null], "xMin": [29, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [6, null]}, "numberOfContours": [1, null]}, "u10928": {"xMax": [422, null], "xMin": [29, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [10, null]}, "numberOfContours": [1, null]}, "u1092D": {"xMax": [520, null], "xMin": [61, null], "yMax": [714, null], "yMin": [0, null], "endPtsOfContours": {"0": [11, null], "1": [20, null]}, "numberOfContours": [2, null]}, "u10930": {"xMax": [449, null], "xMin": [29, null], "yMax": [724, null], "yMin": [0, null], "endPtsOfContours": {"0": [7, null]}, "numberOfContours": [1, null]}, "u10922": {"xMax": [571, null], "xMin": [31, null], "yMax": [724, null], "yMin": [-10, null], "endPtsOfContours": {"0": [26, null]}, "numberOfContours": [1, null]}, "u10920": {"xMax": [648, null], "xMin": [10, null], "yMax": [717, null], "yMin": [0, null], "endPtsOfContours": {"0": [7, null], "1": [17, null]}, "numberOfContours": [2, null]}}}, "hhea": {"numberOfHMetrics": [32, 33], "minLeftSideBearing": [10, -341]}, "GDEF": {"tableTag": [null, "GDEF"], "table": {"Version": [null, 65538], "GlyphClassDef": {"classDefs": {"u10920": [null, 1], "u10921": [null, 1], "u10922": [null, 1], "u10923": [null, 1], "u10924": [null, 1], "u10925": [null, 1], "u10926": [null, 1], "u10927": [null, 1], "u10928": [null, 1], "u10929": [null, 1], "u1092A": [null, 1], "u1092B": [null, 1], "u1092C": [null, 1], "u1092D": [null, 1], "u1092E": [null, 1], "u1092F": [null, 1], "u10930": [null, 1], "u10931": [null, 1], "u10932": [null, 1], "u10933": [null, 1], "u10934": [null, 1], "u10935": [null, 1], "u10936": [null, 1], "u10937": [null, 1], "u10938": [null, 1], "u10939": [null, 1], "u1093F": [null, 1], "dotbelowcomb": [null, 3]}}, "MarkGlyphSetsDef": {"MarkSetTableFormat": [null, 1], "MarkSetCount": [null, 1], "Coverage": {"0": {"glyphs": {"0": [null, "dotbelowcomb"]}}}}}}, "hmtx": {"metrics": {"dotbelowcomb": {"0": [null, 0], "1": [null, -341]}}}};</script><div id="difftable"></div>
+     <script>var fontdiff = {"hmtx": {"metrics": {"dotbelowcomb": {"0": [null, 0], "1": [null, -341]}}}, "cmap": {"0x0323": [null, "dotbelowcomb"]}, "GPOS": {"tableTag": [null, "GPOS"], "table": {"Version": [null, 65536], "ScriptList": {"ScriptCount": [null, 1], "ScriptRecord": {"0": {"ScriptTag": [null, "DFLT"], "Script": {"DefaultLangSys": {"ReqFeatureIndex": [null, 65535], "FeatureCount": [null, 2], "FeatureIndex": {"0": [null, 0], "1": [null, 1]}}, "LangSysCount": [null, 0]}}}}, "FeatureList": {"FeatureCount": [null, 2], "FeatureRecord": {"0": {"FeatureTag": [null, "mark"], "Feature": {"LookupCount": [null, 1], "LookupListIndex": {"0": [null, 0]}}}, "1": {"FeatureTag": [null, "mkmk"], "Feature": {"LookupCount": [null, 1], "LookupListIndex": {"0": [null, 1]}}}}}, "LookupList": {"LookupCount": [null, 2], "Lookup": {"0": {"LookupType": [null, 4], "LookupFlag": [null, 0], "SubTableCount": [null, 1], "SubTable": {"0": {"Format": [null, 1], "MarkCoverage": {"glyphs": {"0": [null, "dotbelowcomb"]}}, "BaseCoverage": {"glyphs": {"0": [null, "u10920"], "1": [null, "u10921"], "2": [null, "u10922"], "3": [null, "u10923"], "4": [null, "u10924"], "5": [null, "u10925"], "6": [null, "u10926"], "7": [null, "u10927"], "8": [null, "u10928"], "9": [null, "u10929"], "10": [null, "u1092A"], "11": [null, "u1092B"], "12": [null, "u1092C"], "13": [null, "u1092D"], "14": [null, "u1092E"], "15": [null, "u1092F"], "16": [null, "u10930"], "17": [null, "u10931"], "18": [null, "u10932"], "19": [null, "u10933"], "20": [null, "u10934"], "21": [null, "u10935"], "22": [null, "u10936"], "23": [null, "u10937"], "24": [null, "u10938"], "25": [null, "u10939"], "26": [null, "u1093F"]}}, "ClassCount": [null, 1], "MarkArray": {"MarkCount": [null, 1], "MarkRecord": {"0": {"Class": [null, 0], "MarkAnchor": {"Format": [null, 1], "XCoordinate": [null, -287], "YCoordinate": [null, 0]}}}}, "BaseArray": {"BaseCount": [null, 27], "BaseRecord": {"0": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 329], "YCoordinate": [null, -120]}}}, "1": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 303], "YCoordinate": [null, -120]}}}, "2": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 301], "YCoordinate": [null, -120]}}}, "3": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 239], "YCoordinate": [null, -120]}}}, "4": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 254], "YCoordinate": [null, -120]}}}, "5": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 254], "YCoordinate": [null, -120]}}}, "6": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 167], "YCoordinate": [null, -120]}}}, "7": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 298], "YCoordinate": [null, -120]}}}, "8": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 225], "YCoordinate": [null, -120]}}}, "9": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 254], "YCoordinate": [null, -120]}}}, "10": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 340], "YCoordinate": [null, -120]}}}, "11": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 305], "YCoordinate": [null, -120]}}}, "12": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 353], "YCoordinate": [null, -120]}}}, "13": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 290], "YCoordinate": [null, -120]}}}, "14": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 268], "YCoordinate": [null, -120]}}}, "15": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 282], "YCoordinate": [null, -120]}}}, "16": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 239], "YCoordinate": [null, -120]}}}, "17": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 291], "YCoordinate": [null, -120]}}}, "18": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 306], "YCoordinate": [null, -120]}}}, "19": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 306], "YCoordinate": [null, -120]}}}, "20": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 306], "YCoordinate": [null, -120]}}}, "21": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 467], "YCoordinate": [null, -120]}}}, "22": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 337], "YCoordinate": [null, -120]}}}, "23": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 414], "YCoordinate": [null, -120]}}}, "24": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 314], "YCoordinate": [null, -120]}}}, "25": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 342], "YCoordinate": [null, -120]}}}, "26": {"BaseAnchor": {"0": {"Format": [null, 1], "XCoordinate": [null, 235], "YCoordinate": [null, -120]}}}}}}}}, "1": {"LookupType": [null, 6], "LookupFlag": [null, 16], "SubTableCount": [null, 1], "SubTable": {"0": {"Format": [null, 1], "Mark1Coverage": {"glyphs": {"0": [null, "dotbelowcomb"]}}, "Mark2Coverage": {"glyphs": {"0": [null, "dotbelowcomb"]}}, "ClassCount": [null, 1], "Mark1Array": {"MarkCount": [null, 1], "MarkRecord": {"0": {"Class": [null, 0], "MarkAnchor": {"Format": [null, 1], "XCoordinate": [null, -287], "YCoordinate": [null, 0]}}}}, "Mark2Array": {"Mark2Count": [null, 1], "Mark2Record": {"0": {"Mark2Anchor": {"0": {"Format": [null, 1], "XCoordinate": [null, -287], "YCoordinate": [null, -165]}}}}}}}, "MarkFilteringSet": [null, 0]}}}}}, "head": {"yMin": [-20, -199], "modified": [3746422524, 3778491070], "fontRevision": [2.001007080078125, 2.0019989013671875], "xMin": [10, -341], "checkSumAdjustment": [4243517364, 2332112774]}, "glyf": {"glyphOrder": {"32": [null, "dotbelowcomb"]}}, "maxp": {"numGlyphs": [32, 33]}, "GDEF": {"tableTag": [null, "GDEF"], "table": {"Version": [null, 65538], "GlyphClassDef": {"classDefs": {"u10920": [null, 1], "u10921": [null, 1], "u10922": [null, 1], "u10923": [null, 1], "u10924": [null, 1], "u10925": [null, 1], "u10926": [null, 1], "u10927": [null, 1], "u10928": [null, 1], "u10929": [null, 1], "u1092A": [null, 1], "u1092B": [null, 1], "u1092C": [null, 1], "u1092D": [null, 1], "u1092E": [null, 1], "u1092F": [null, 1], "u10930": [null, 1], "u10931": [null, 1], "u10932": [null, 1], "u10933": [null, 1], "u10934": [null, 1], "u10935": [null, 1], "u10936": [null, 1], "u10937": [null, 1], "u10938": [null, 1], "u10939": [null, 1], "u1093F": [null, 1], "dotbelowcomb": [null, 3]}}, "MarkGlyphSetsDef": {"MarkSetTableFormat": [null, 1], "MarkSetCount": [null, 1], "Coverage": {"0": {"glyphs": {"0": [null, "dotbelowcomb"]}}}}}}, "name": {"3/3/1/1033": ["2.001;GOOG;NotoSansLydian-Regular", "2.002;GOOG;NotoSansLydian-Regular"], "5/3/1/1033": ["Version 2.001", "Version 2.002"]}, "post": {"extraNames": {"30": [null, "dotbelowcomb"]}}, "hhea": {"numberOfHMetrics": [32, 33], "minLeftSideBearing": [10, -341]}};</script><div id="difftable"></div>
     </div>
     
     
@@ -309,6 +320,81 @@
 		fontToggle.addEventListener("click", switchFonts);
 	}
 
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
     
 	function render(node, toplevel) {
 		var wrapper = $("<div> </div>");
@@ -339,7 +425,7 @@
 	}
 	$(function() {
 		$("#difftable").append(render(fontdiff, true).children())
-		$(".node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
+		$("#difftable .node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
 	});
 
 function wordBreaks() {
