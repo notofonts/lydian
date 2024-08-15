@@ -2,9 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>creator</key>
-    <string>com.schriftgestaltung.GlyphsUFOExport</string>
-    <key>formatVersion</key>
-    <integer>3</integer>
+    <key>u10922</key>
+    <string>u10922.glif</string>
+    <key>u1092C</key>
+    <string>u1092C_.glif</string>
+    <key>u10935</key>
+    <string>u10935.glif</string>
   </dict>
 </plist>

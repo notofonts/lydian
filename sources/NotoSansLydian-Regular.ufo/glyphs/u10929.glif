@@ -2,6 +2,8 @@
 <glyph name="u10929" format="2">
   <advance width="578"/>
   <unicode hex="10929"/>
+  <guideline x="50" y="458" angle="120.3581"/>
+  <guideline x="231" y="521" angle="31.4079"/>
   <anchor x="254" y="-120" name="bottom"/>
   <outline>
     <contour>
@@ -14,4 +16,10 @@
       <point x="391" y="619" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-09 12:08:16 +0000</string>
+    </dict>
+  </lib>
 </glyph>
