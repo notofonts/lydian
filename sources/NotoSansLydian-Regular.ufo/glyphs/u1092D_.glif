@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="u1092D" format="2">
-  <advance width="617"/>
+  <advance width="618"/>
   <unicode hex="1092D"/>
   <anchor x="290" y="-120" name="bottom"/>
   <outline>
@@ -29,4 +29,12 @@
       <point x="430" y="355" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-08-15 13:04:11 +0000</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
 </glyph>
